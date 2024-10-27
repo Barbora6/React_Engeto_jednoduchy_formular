@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2D9BA;
+    color: #e5e5e5;
+}
+form {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article input {
+    margin-bottom: 10px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #B0953A;
+}
+article input::placeholder {
+    color: #918354;
+}
+article button {
+    background-color: #B0953A;
+    color: #e5e5e5;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.user-box {
+    text-align: center;
+    background-color: #B0953A;
+    width: 300px;
+    margin: 10px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
